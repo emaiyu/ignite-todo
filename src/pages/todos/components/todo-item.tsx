@@ -16,7 +16,7 @@ export function TodoItem({ todo }: { todo: Todo }) {
 
   return (
     <Card className="flex flex-row bg-foreground/50 border-none text-white p-4">
-      <CardHeader className="p-0 mr-2">
+      <CardHeader className="p-0 mr-2 flex items-center">
         <Checkbox
           checked={todo.completed}
           onClick={() => toggle(todo.id)}

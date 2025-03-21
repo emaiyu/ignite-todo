@@ -11,7 +11,7 @@ export function Statistics() {
           {total}
         </span>
       </p>
-      <p className="text-sm text-accent font-bold">
+      <p className="text-sm text-secondary font-bold">
         Concluídas{" "}
         <span className="bg-foreground/20 px-2 py-1 rounded-full text-white">
           {completed} de {total}
